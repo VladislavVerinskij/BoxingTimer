@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/competitionFragment"
+        android:icon="@drawable/ic_competition"
+        android:title="@string/competition" />
+    <item
+        android:id="@+id/timerFragment"
+        android:icon="@drawable/ic_timer"
+        android:title="@string/timer"/>
+    <item
+        android:id="@+id/navigation_group"
+        android:icon="@drawable/ic_group_"
+        android:title="@string/coach_partner"/>
+</menu>
